@@ -1,5 +1,137 @@
+<link
+  href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap"
+  rel="stylesheet"
+/>
+<!DOCTYPE html>
 <html>
-    <body>
-        <h1>Hello Ekansh!!</h1>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1"/>
+    <title>Sayantan's Website</title>
+  </head>
+  <body>
+    
+    <ul class="nav-bar">
+      <li class="nav-links"><a href="#home">Home</a></li>
+      <li class="nav-links"><a href="#news">News</a></li>
+      <li class="nav-links"><a href="#contact">Contact</a></li>
+      <li class="nav-links" style="text-align: right;"><a href="#about">About</a></li>
+    </ul>
+
+    <div class="flex-container">
+      <div class="row">
+        <h2 id="heading">Sayantan's Website</h2>
+        <hr />
+        <p class="common-text">
+          <big>Hello</big> all from me. I'm just brussing up my
+          <b>html</b> skills.
+        </p>
+        <p>I have to drink H<sub>2</sub>O</p>
+        <p>Just 10<sup>2</sup> times</p>
+        <!-- Onthing to say now. it's just a comment -->
+        <img width="50%" src="../img/team-1.JPG" alt="Suman Da" />
+      </div>
+      <div class="row">
+        <h2 id="heading">Suman's Website</h2>
+        <hr />
+        <p class="common-text">
+          <big>Hello</big> all from me. I'm just brussing up my
+          <b>html</b> skills.
+        </p>
+        <p>
+          It's pre,
+          Now I not need to write Br tag.
+        </p>
+        <p>I have to drink H<sub>2</sub>O</p>
+        <p>Just 10<sup>2</sup> times</p>
+        <!-- Onthing to say now. it's just a comment -->
+        <img width="50%" src="../img/team-1.JPG" alt="Suman Da" />
+      </div>
+      <div class="row">
+        <h2 id="heading">Suman's Website</h2>
+        <hr />
+        <p class="common-text">
+          <big>Hello</big> all from me. I'm just brussing up my
+          <b>html</b> skills.
+        </p>
+        <p>
+          It's pre,
+          Now I not need to write Br tag.
+        </p>
+        <p>I have to drink H<sub>2</sub>O</p>
+        <p>Just 10<sup>2</sup> times</p>
+        <!-- Onthing to say now. it's just a comment -->
+        <img width="50%" src="../img/team-1.JPG" alt="Suman Da" />
+      </div>
+      <div class="row">
+        <h2 id="heading">Suman's Website</h2>
+        <hr />
+        <p class="common-text">
+          <big>Hello</big> all from me. I'm just brussing up my
+          <b>html</b> skills.
+        </p>
+        <p>
+          It's pre,
+          Now I not need to write Br tag.
+        </p>
+        <p>I have to drink H<sub>2</sub>O</p>
+        <p>Just 10<sup>2</sup> times</p>
+        <!-- Onthing to say now. it's just a comment -->
+        <img width="50%" src="../img/team-1.JPG" alt="Suman Da" />
+      </div>
+    </div>
+  </body>
 </html>
+<style>
+  .row{
+    box-sizing: border-box;
+  }
+ .flex-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .row {
+    flex: 50%;
+    padding: 20px;
+  }
+  @media screen and (max-width: 992px) {
+  .row {
+    flex: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .flex-container {
+    flex-direction:row;
+  }
+}
+.row {
+    display: inline-block;
+     vertical-align: top; 
+}
+  .common-text {
+    color: blue;
+    font-family: monospace;
+  }
+  h2 {
+    color: rgb(97, 66, 200);
+    font-family: Ranchers, monospace;
+  }
+  #heading {
+    background-color: cyan;
+  }
+  .nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li.nav-links {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+</style>
